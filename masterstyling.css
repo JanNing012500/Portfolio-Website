@@ -1,0 +1,400 @@
+/* Navigation Bar / header */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "montserrat";
+  }
+  #menu{
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    background-color: rgba(32, 32, 32, 0.74);
+    background-size: 10px 10px;
+  }
+  #menu li{
+    list-style: none;
+    display: inline-block;
+  }
+  #menu li a{ 
+    text-decoration: none;
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    padding: 14px 30px;
+    text-transform: uppercase;
+  }
+  #menu li a:before{
+    content: '';
+    width: 88px;
+    position: absolute;
+    border-bottom: 8px solid #c72;
+    bottom: 0;
+    right: 245px;
+    transition: 0.7s all;
+  }
+  #menu li a:hover:before{
+    right: 0;
+  }
+
+  
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 639px;
+    height: 637px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card1 {
+    background-color: transparent;
+    width: 515px;
+    height: 778px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card1:hover .flip-card-inner1 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front1, .flip-card-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front1 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back1 {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card2 {
+    background-color: transparent;
+    width: 621px;
+    height: 772px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card2:hover .flip-card-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front2 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back2 {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card3 {
+    background-color: transparent;
+    width: 1261px;
+    height: 754px; 
+    position: relative;
+    left: -270px;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card3:hover .flip-card-inner3 {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front3, .flip-card-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front3 {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back3 {
+    background-color: transparent;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Card Flip script */
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .card{
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+  }
+  .front,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  }
+  .front img{
+    height: 100%;
+  }
+  .front{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .back{
+    background: #f1f1f1;
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .back-content{
+    color: #2c3e50;
+    text-align: center;
+    width: 75%;
+  }
+  .sm{
+    margin: 20px 0;
+  }
+  .sm a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+    font-size: 18px;
+    transition: 0.4s;
+    border-radius: 50%
+  }
+  .sm a:hover{
+    background: #2c3e50;
+    color: white;
+  }
+  .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+  .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  span{
+  text-decoration: underline;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
+  /* Body for everything */
+
+  body {
+    /* Typography Declarations */
+    color: white;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-image: url('./assets/DSC01099-2.jpg');
+    background-size: cover;
+    }
+    
+    /*Styling for ALL h1, h2, p1 used */
+    h1{
+        color: rgb(255, 255, 255);
+        text-decoration: underline;    
+        }
+      
+        h2{   
+          color: rgb(24, 100, 172);
+          text-decoration: underline;   
+        }
+      
+        p1{
+        color : rgb(0, 0, 0);
+        font-family: "Montserrat", sans-serif}
+
+        p{
+            color : rgb(255, 255, 255);
+            font-family: "Montserrat", sans-serif}
+        
+        .whatsup {
+            margin-bottom: 0.1em;
+            font-family: "Gentium Book Basic", Georgia, serif;
+            font-size: 3.5em;
+        }
+
+/*Footer*/
+.content-footer {
+  margin: 0px 0;
+  padding: 20px 0;
+  text-align: center;
+  text-decoration: none;
+}
+/*Footer Color*/
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F1C863;
+}
+/*Keeps footer in 1 line */
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
