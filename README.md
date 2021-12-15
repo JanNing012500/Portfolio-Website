@@ -1,1 +1,1 @@
-Website is live at : Bit.ly/JanNing
+Website is live at : bit.ly/JanNing
